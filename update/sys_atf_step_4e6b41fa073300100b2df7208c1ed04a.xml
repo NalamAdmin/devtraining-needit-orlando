@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the 'NeedIt' form with id 'NeedIt: NI002010'
+
+Warning: Using an existing record may cause unexpected behavior for this test&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 15:27:12</sys_created_on>
+        <sys_id>4e6b41fa073300100b2df7208c1ed04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_4e6b41fa073300100b2df7208c1ed04a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 15:27:12</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Future copy">6a4a05ba073300100b2df7208c1ed0d8</test>
+        <timeout/>
+        <warning_message>Warning: Using an existing record may cause unexpected behavior for this test&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4e6b41fa073300100b2df7208c1ed04a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e6b41fa073300100b2df7208c1ed04a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 15:27:12</sys_created_on>
+        <sys_id>068b05fa073300100b2df7208c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 15:27:12</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e6b41fa073300100b2df7208c1ed04a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 15:27:12</sys_created_on>
+        <sys_id>428b05fa073300100b2df7208c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 15:27:12</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e6b41fa073300100b2df7208c1ed04a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 15:27:12</sys_created_on>
+        <sys_id>8e8b05fa073300100b2df7208c1ed0b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 15:27:12</sys_updated_on>
+        <value>0b1a81ba073300100b2df7208c1ed0f8</value>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e6b41fa073300100b2df7208c1ed04a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 15:27:12</sys_created_on>
+        <sys_id>ca8b05fa073300100b2df7208c1ed0b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 15:27:12</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="">17d732a9c7a333005e5c45b881c26007</variable>
+    </sys_variable_value>
+</record_update>
